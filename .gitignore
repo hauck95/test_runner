@@ -1,3 +1,5 @@
-__pychache__/
 config.py
 *.log
+playwright-log.txt
+output.xml
+/__pycache__

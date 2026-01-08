@@ -1,10 +1,18 @@
-from robot import run
-import config
+import runner
+import typer
 
-class Main:
-    def run_suite(self) -> None:
-        run(config.path)
+class Main():
+
+    app = typer.Typer()
+
+    @app.command()
+    def find():
+        print("Finding tests...")
+
+    @app.command()
+    def again():
+        print("Running tests again...")
 
 if __name__ == "__main__":
-    app = Main()
-    app.run_suite()
+    main = Main()
+    main.app()

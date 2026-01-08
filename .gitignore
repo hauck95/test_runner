@@ -3,3 +3,4 @@ config.py
 playwright-log.txt
 output.xml
 /__pycache__
+/src/__pycache__

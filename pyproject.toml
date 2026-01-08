@@ -3,5 +3,5 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SuiteRunner"
+name = "cica"
 version = "1.0"

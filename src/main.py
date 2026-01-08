@@ -1,4 +1,5 @@
 from robot import run
+import config
 
 class Main:
     def run_suite(self) -> None:

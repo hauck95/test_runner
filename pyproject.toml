@@ -4,4 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cica"
-version = "1.0"
+version = "0.1.0"
+
+[project.scripts]
+cica = "cica.main:app"
